@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+
+# Build and Output directories
+dist/
+build/
+.next/
+out/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# Logs & Debug
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment & Secrets
+.env
+.env*.local
+.env.production
+.env.staging
+.env.development
+*.pem
+*.key
+*.cert
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS / System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+.playwright/
+test-results/
+
+# Temporary & Cache
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+*.tmp
+*.bak
